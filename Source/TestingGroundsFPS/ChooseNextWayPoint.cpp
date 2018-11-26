@@ -2,3 +2,8 @@
 
 #include "ChooseNextWayPoint.h"
 
+EBTNodeResult::Type UChooseNextWayPoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) {
+
+
+	return EBTNodeResult::Succeeded;
+}
