@@ -19,6 +19,7 @@ public:
 
 private:
 	/** Crosshair asset pointer */
+	UPROPERTY(EditAnywhere, Category = "CrossHair")
 	class UTexture2D* CrosshairTex;
 
 };
