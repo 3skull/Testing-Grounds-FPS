@@ -28,7 +28,7 @@ EBTNodeResult::Type UChooseNextWayPoint::ExecuteTask(UBehaviorTreeComponent& Own
 	}
 
 
-	// Set next waypoint
+	// Set next way point
 	UBlackboardComponent* BlackboardComp = OwnerComp.GetBlackboardComponent();
 	auto Index = BlackboardComp->GetValueAsInt(IndexKey.SelectedKeyName);
 	BlackboardComp->SetValueAsObject(WayPoint.SelectedKeyName, PatrolPoints[Index]);
