@@ -22,6 +22,7 @@ class TESTINGGROUNDSFPS_API AGun : public AActor
 
 public:	
 	/** Fires a projectile. */
+	UFUNCTION(BlueprintCallable, category = "Input")
 	void OnFire();
 
 	/** Projectile class to spawn */
